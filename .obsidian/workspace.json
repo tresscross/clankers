@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "717e9eb46ee8d6a3",
+        "id": "ac027c110f6c7fb5",
         "type": "tabs",
         "children": [
           {
-            "id": "f7cfac95b8f42266",
+            "id": "623840172fcaf481",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "testing 123.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "testing 123"
             }
           }
         ]
@@ -165,7 +169,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f7cfac95b8f42266",
+  "active": "623840172fcaf481",
   "lastOpenFiles": [
     "testing 123.md",
     "testing.md",
