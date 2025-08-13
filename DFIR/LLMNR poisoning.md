@@ -16,3 +16,4 @@ Tooling used to do this:
 
 ### Triage
 - you can look for the rogue device hostname looking for initial `dhcp` grants, should include hostname in packetx
+- after determining possible LLMNR poisoning, look at `smb2` packets
