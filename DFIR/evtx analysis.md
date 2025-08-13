@@ -1,8 +1,8 @@
 > EVTX is a binary file format used by Windows for storing event logs. It replaces the older .evt format, offering features like a structured XML format, improved event properties, and more efficient storage. 
 
 Tools:
-- chainsaw
-- hayabusa
+- [chainsaw](https://github.com/WithSecureLabs/chainsaw?tab=readme-ov-file#quick-start-guide)
+- [hayabusa](https://github.com/Yamato-Security/hayabusa)
 
 
 Can upload to [Gigasheet](https://app.gigasheet.com/datasets) for free CSV parsing
@@ -25,5 +25,7 @@ chainsaw dump /path/file.evtx --output /path/output.json -j
 
 
 ---
-
 # hayabusa
+```
+./hayabusa csv-timeline -f "file.evtx" -o "timeline.csv"
+```
