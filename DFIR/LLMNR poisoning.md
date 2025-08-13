@@ -15,4 +15,4 @@ Tooling used to do this:
 - typically the DC should respond, if you can exclude DCs from query that is helpful
 
 ### Triage
-- you can look for the rogue device hostname looking for initial `dhcp` grants, should include hostname in packet
+- you can look for the rogue device hostname looking for initial `dhcp` grants, should include hostname in packetx
