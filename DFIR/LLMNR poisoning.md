@@ -24,4 +24,4 @@ Tooling used to do this:
 	- User::Domain:ServerChallenge:NTProofStr:NTLMv2Response(without first 16 bytes)
 
 
-john.deacon::NBFY
+john.deacon::NBFY:601019d191f054f1:c0cc803a6d9fb5a9082253a04dbd4cd4:
