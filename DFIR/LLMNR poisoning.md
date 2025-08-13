@@ -10,4 +10,7 @@ Tooling used to do this:
 ## Detection
 - LLMNR runs on UDP port 5355 by default
 - can look for protocol LLMNR in wireshark
-- look for unusual responding hosts, can do fequency analysis for hosts that usually handle requests vs those who 
+- look for unusual responding hosts, can do fequency analysis for hosts that usually handle requests vs those who rarely do
+- in a lot of environments LLMNR comes into play during typo'd requests, look at requests to see if pattern matches
+- typically the DC should respond, if you can exclude DCs from query that is helpful
+
