@@ -15,5 +15,15 @@ chainsaw search -t 'Event.System.EventID: =XXXX' <evtx_file_path>
 
 Running rule lists against .evtx files
 ```
-chainsaw hunt <file.evtx> --sigma /<pat>chainsaw/sigma/rules/windows --mapping /Users/jaswal1/tools/chainsaw/mappings/sigma-event-logs-all.yml
+chainsaw hunt <file.evtx> --sigma <path>chainsaw/sigma/rules/windows --mapping <path>/chainsaw/mappings/sigma-event-logs-all.yml
 ```
+
+extracting events to json
+```
+chainsaw dump /path/file.evtx --output /path/output.json -j
+```
+
+
+---
+
+# hayabusa
