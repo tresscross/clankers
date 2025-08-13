@@ -1,0 +1,1 @@
+Link-Local Multicast Name Resolution performs name resolution for hosts on the same local network
