@@ -18,5 +18,6 @@ Tooling used to do this:
 - you can look for the rogue device hostname looking for initial `dhcp` grants, should include hostname in packetx
 - after determining possible LLMNR poisoning, look at `smb2` packets for NTLM negotiation, looking for user's hashes being stolen
 	- here you will want to enable hostnames in wireshark
-	- view > name resolution > resolve 
+	- view > name resolution > resolve network addresses
 	- ![[Pasted image 20250813122820.png]]
+- 
