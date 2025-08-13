@@ -6,3 +6,5 @@ The attack:
 
 Tooling used to do this:
 	[Responder](https://www.kali.org/tools/responder/)
+
+## Detection
