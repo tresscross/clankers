@@ -22,3 +22,6 @@ Tooling used to do this:
 	- ![[Pasted image 20250813122820.png]]
 - to stitch together what credentials were leaked 
 	- User::Domain:ServerChallenge:NTProofStr:NTLMv2Response(without first 16 bytes)
+
+
+john.deacon::NBFY
