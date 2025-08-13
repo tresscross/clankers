@@ -20,4 +20,4 @@ Tooling used to do this:
 	- here you will want to enable hostnames in wireshark
 	- view > name resolution > resolve network addresses
 	- ![[Pasted image 20250813122820.png]]
-- 
+- to stitch together what credentials w
