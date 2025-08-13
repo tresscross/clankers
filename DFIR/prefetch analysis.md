@@ -1,1 +1,4 @@
-this is mac specific as thats what i use
+making timeline using log2timeline
+```sh
+log2timeline --parsers prefetch --storage_file timeline.plaso .
+```
