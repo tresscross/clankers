@@ -21,4 +21,4 @@ Tooling used to do this:
 	- view > name resolution > resolve network addresses
 	- ![[Pasted image 20250813122820.png]]
 - to stitch together what credentials were leaked 
-	- User::Domain:ServerChallenge:NTProofStr:NTLMv2Response()
+	- User::Domain:ServerChallenge:NTProofStr:NTLMv2Response(without first 16 bytes)
