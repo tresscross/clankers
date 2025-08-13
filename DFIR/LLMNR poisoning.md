@@ -14,3 +14,5 @@ Tooling used to do this:
 - in a lot of environments LLMNR comes into play during typo'd requests, look at requests to see if pattern matches
 - typically the DC should respond, if you can exclude DCs from query that is helpful
 
+### Triage
+- you can look for the rogue device hostname looking for initial `dhcp` grants, should include hostname in packet
