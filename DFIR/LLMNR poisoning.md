@@ -8,3 +8,6 @@ Tooling used to do this:
 	[Responder](https://www.kali.org/tools/responder/)
 
 ## Detection
+- LLMNR runs on UDP port 5355 by default
+- can look for protocol LLMNR in wireshark
+- look for unusual responding hosts, can do fequency analysis for hosts that usually handle requests vs those who 
