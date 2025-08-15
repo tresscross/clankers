@@ -8,3 +8,5 @@ This challenge provided you with a PCAP, investigative flow looked like:
 	- VT also answered malware family, creation time, domain relations, ip relations, dll inside
 - to find hostname i looked in packets infected host sent to api gateway, hostname is in json payload along with owner and OS version
 - to decrypt, you need to look in the HTTP stream focusing on communication between infected host and stage 2 c2 domain
+	- right click packet > follow stream > http > show data as utf 8
+	- in requests there is `key` and `job` sent in separate requests, use those and research into SSLoad tactics to decrypt
