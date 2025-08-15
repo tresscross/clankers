@@ -5,4 +5,4 @@ finding wifi SSID by looking in
 `\Windows\System32\winevt\Logs\Microsoft-Windows-WLAN-AutoConfig%4Operational.evtx`
 - **Event ID 8001** (WLAN connected)
 
-chainsaw search -t 'Event.System.EventID: =XXXX' <evtx_file_path>
+chainsaw search -t 'Event.System.EventID: =8100' <evtx_file_path>
