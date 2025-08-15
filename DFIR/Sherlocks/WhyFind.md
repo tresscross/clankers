@@ -8,3 +8,7 @@ finding wifi SSID by looking in
 ``` sh
 chainsaw search -t 'Event.System.EventID: =8100' \Windows\System32\winevt\Logs\Microsoft-Windows-WLAN-AutoConfig%4Operational.evtx
 ```
+
+will find where that lease was issued in
+`Microsoft-Windows-Dhcp-Client%4Operational.evtx`
+event ids 50058 / 50036
